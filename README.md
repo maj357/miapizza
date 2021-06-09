@@ -1,6 +1,6 @@
 # miapizza - pizza project
 
 resource:
-html
-css
-javascript
+- html
+- css
+- javascript
