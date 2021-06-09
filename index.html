@@ -2,439 +2,411 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="./img/free-icon-pizza-810577.png" type="image/x-icon">
-  <title>MiaPizza</title>
-  <!--Bootstrap core CSS-->
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/free-icon-pizza-810577.png" type="image/x-icon">
+    <title>MiaPizza</title>
+    <!--Bootstrap core CSS-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-  
+
 <body>
 
-  <main class="main">
-    <div class="container-fluid">
-      <div class="header" id="header_scrl">
+    <main class="main">
+        <div class="container-fluid">
+            <div class="header" id="header_scrl">
+                <div class="row">
+
+                    <div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4">
+                        <div class="header-call" id="header-call_scrl">
+                            <h4 class="header-call-text" id="header-call-text_scrl">Заказ и доставка по номеру с 10:00 до 22:00</h4>
+                            <h4 class="header-call-text_tel" id="header-call-text-tel_scrl"><span>&#128222;</span><a href="tel:+38(068) 315-35-79">(068) 315-35-79</a>
+                                <span>&#128222;</span> <a href="tel:+38(096) 215-83-57">(096) 215-83-57</a>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-2 col-md-4">
+                        <div class="header-logo">
+                            <img id="image_scrl" class="header-logo-image" src="img/miapizza.png" alt="Mia Pizza logo">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 offset-lg-1 col-lg-4 col-md-4">
+                        <div class="login">
+                            <div class="login-town">
+                                <form class="login-town-form" id="login-town-form_scrl" action="#">
+                                    <!-- Картинка из черно-белого в цветное -->
+                                    <a class="login-town-form_inst" href="#"><img class="grey" id="viber-grey_scrl" src="img/social/viber-1.png" width="30rem" alt="viber_logo"><img class="color" id="viber-color_scrl" src="img/social/viber-2.png" width="30rem" alt="viber_logo"></a>
+                                    <a class="login-town-form_inst" href="#"><img class="grey" id="tele-grey_scrl" src="img/social/telegram-1.png" width="30rem" alt="telegram_logo"><img class="color" id="tele-color_scrl" src="img/social/telegram-2.png" width="30rem" alt="telegram_logo"></a>
+                                    <a class="login-town-form_inst" href="#"><img class="grey" id="inst-grey_scrl" src="img/social/instagram-1.png" width="30rem" alt="instagram_logo"><img class="color" id="inst-color_scrl" src="img/social/instagram-2.png" width="30rem" alt="instagram_logo"></a>
+                                    <h4 class="login-town-form_log" id="log_scrl"><a class="log_btn" href="#">Вход</a>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Logo для моб версии + кнопка -->
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6">
+                                <div class="wrap">
+                                    <div class="mob">
+                                        <a href="#header_scrl" class="mob-btn" id="mob_btn">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                    <div class="wrap-block">
+                                        <img class="logo" id="mob_logo" src="img/miapizza.png" alt="Mia Pizza logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+
+    <section class="main-section">
         <div class="row">
-
-          <div class="offset-xl-1 col-xl-3 offset-lg-1 col-lg-4 col-md-4">
-            <div class="header-call" id="header-call_scrl">
-              <h4 class="header-call-text" id="header-call-text_scrl">Заказ и доставка по номеру с 10:00 до 22:00</h4>
-              <h4 class="header-call-text_tel" id="header-call-text-tel_scrl"><span>&#128222;</span><a
-                  href="tel:+38(068) 315-35-79">(068) 315-35-79</a>
-                <span>&#128222;</span> <a href="tel:+38(096) 215-83-57">(096) 215-83-57</a>
-              </h4>
+            <div class="col-xl-8 offset-xl-2 offset-lg-2 col-lg-8 offset-lg-2 offset-md-3 col-md-6 offset-md-3">
+                <div class="main-menu">
+                    <ul class="main-menu-list main-menu-list_active" id="main-menu_scrl">
+                        <a class="scrlpizza" href="#scrollpizza">
+                            <li class="main-menu-list-num" id="num_scrl-one">Пицца</li>
+                        </a>
+                        <li class="main-menu-list-num" id="num_scrl-two">Напитки</li>
+                        <li class="main-menu-list-num" id="num_scrl-tree">Комбо-микс</li>
+                        <li class="main-menu-list-num" id="num_scrl-four">Акции</li>
+                        <a class="scrlcontact" href="#scrollcontact">
+                            <li class="main-menu-list-num" id="num_scrl-five">Контакты</li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-          </div>
+        </div>
+    </section>
 
-          <div class="col-xl-4 col-lg-2 col-md-4">
-            <div class="header-logo">
-              <img id="image_scrl" class="header-logo-image" src="img/miapizza.png" alt="Mia Pizza logo">
-            </div>
-          </div>
-
-          <div class="col-xl-3 offset-lg-1 col-lg-4 col-md-4">
-            <div class="login">
-              <div class="login-town">
-                <form class="login-town-form" id="login-town-form_scrl" action="#">
-                  <!-- Картинка из черно-белого в цветное -->
-                  <a class="login-town-form_inst" href="#"><img class="grey" id="viber-grey_scrl"
-                      src="img/social/viber-1.png" width="30rem" alt="viber_logo"><img class="color"
-                      id="viber-color_scrl" src="img/social/viber-2.png" width="30rem" alt="viber_logo"></a>
-                  <a class="login-town-form_inst" href="#"><img class="grey" id="tele-grey_scrl"
-                      src="img/social/telegram-1.png" width="30rem" alt="telegram_logo"><img class="color"
-                      id="tele-color_scrl" src="img/social/telegram-2.png" width="30rem" alt="telegram_logo"></a>
-                  <a class="login-town-form_inst" href="#"><img class="grey" id="inst-grey_scrl"
-                      src="img/social/instagram-1.png" width="30rem" alt="instagram_logo"><img class="color"
-                      id="inst-color_scrl" src="img/social/instagram-2.png" width="30rem" alt="instagram_logo"></a>
-                  <h4 class="login-town-form_log" id="log_scrl"><a class="log_btn" href="#">Вход</a>
-                </form>
-              </div>
-            </div>
-
-            <!-- Logo для моб версии + кнопка -->
+    <section class="rellax-section">
+        <div class="container">
             <div class="row">
-              <div class="col-md-3 col-xs-6">
-                <div class="wrap">
-                  <div class="mob">
-                    <a href="#header_scrl" class="mob-btn" id="mob_btn">
-                      <span></span>
-                    </a>
-                  </div>
-                  <div class="wrap-block">
-                    <img class="logo" id="mob_logo" src="img/miapizza.png" alt="Mia Pizza logo">
-                  </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img class="rellax rellax-section-img" data-rellax-speed="1" src="./img/pizza/chicken-pizza.png" alt="pizza" width="3%">
+                    <img class="rellax rellax-section-img_2" data-rellax-speed="5" src="./img/pizza/chicken-pizza.png" alt="pizza" width="7%">
+                    <img class="rellax rellax-section-img_3" data-rellax-speed="2" src="./img/pizza/meat-pizza.png" alt="pizza" width="4%">
+                    <img class="rellax rellax-section-img_4" data-rellax-speed="4" src="./img/pizza/gavai-pizza.png" alt="pizza" width="6%">
+                    <img class="rellax rellax-section-img_5" data-rellax-speed="10" src="./img/pizza/chicken-pizza_big.png" alt="pizza" width="16%">
+                    <img class="rellax rellax-section-img_6" data-rellax-speed="12" src="./img/pizza/gavai-pizza.png" alt="pizza" width="9%">
+                    <img class="rellax rellax-section-img_7" data-rellax-speed="3" src="./img/pizza/hotdog-pizza.png" alt="pizza" width="4%">
+                    <img class="rellax rellax-section-img_8" data-rellax-speed="1" src="./img/pizza/selo-pizza.png" alt="pizza" width="3%">
+                    <img class="rellax rellax-section-img_9" data-rellax-speed="4" src="./img/pizza/chicken-pizza.png" alt="pizza" width="15%">
+                    <img class="rellax rellax-section-img_10" data-rellax-speed="7" src="./img/pizza/meat-pizza.png" alt="pizza" width="9%">
+                    <img class="rellax rellax-section-img_11" data-rellax-speed="5" src="./img/pizza/hotdog-pizza.png" alt="pizza" width="8%">
+                    <img class="rellax rellax-section-img_12" data-rellax-speed="2" src="./img/pizza/chicken-pizza_big.png" alt="pizza" width="12%">
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-  </main>
+    </section>
 
-  <section class="main-section">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 offset-lg-2 col-lg-8 offset-lg-2 offset-md-3 col-md-6 offset-md-3">
-        <div class="main-menu">
-          <ul class="main-menu-list main-menu-list_active" id="main-menu_scrl">
-            <a class="scrlpizza" href="#scrollpizza">
-              <li class="main-menu-list-num" id="num_scrl-one">Пицца</li>
-            </a>
-            <li class="main-menu-list-num" id="num_scrl-two">Напитки</li>
-            <li class="main-menu-list-num" id="num_scrl-tree">Комбо-микс</li>
-            <li class="main-menu-list-num" id="num_scrl-four">Акции</li>
-            <a class="scrlcontact" href="#scrollcontact">
-              <li class="main-menu-list-num" id="num_scrl-five">Контакты</li>
-            </a>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="rellax-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <img class="rellax rellax-section-img" data-rellax-speed="1" src="./img/pizza/chicken-pizza.png" alt="pizza"
-            width="3%">
-          <img class="rellax rellax-section-img_2" data-rellax-speed="5" src="./img/pizza/chicken-pizza.png" alt="pizza"
-            width="7%">
-          <img class="rellax rellax-section-img_3" data-rellax-speed="2" src="./img/pizza/meat-pizza.png" alt="pizza"
-            width="4%">
-          <img class="rellax rellax-section-img_4" data-rellax-speed="4" src="./img/pizza/gavai-pizza.png" alt="pizza"
-            width="6%">
-          <img class="rellax rellax-section-img_5" data-rellax-speed="10" src="./img/pizza/chicken-pizza_big.png"
-            alt="pizza" width="16%">
-          <img class="rellax rellax-section-img_6" data-rellax-speed="12" src="./img/pizza/gavai-pizza.png" alt="pizza"
-            width="9%">
-          <img class="rellax rellax-section-img_7" data-rellax-speed="3" src="./img/pizza/hotdog-pizza.png" alt="pizza"
-            width="4%">
-          <img class="rellax rellax-section-img_8" data-rellax-speed="1" src="./img/pizza/selo-pizza.png" alt="pizza"
-            width="3%">
-          <img class="rellax rellax-section-img_9" data-rellax-speed="4" src="./img/pizza/chicken-pizza.png" alt="pizza"
-            width="15%">
-          <img class="rellax rellax-section-img_10" data-rellax-speed="7" src="./img/pizza/meat-pizza.png" alt="pizza"
-            width="9%">
-          <img class="rellax rellax-section-img_11" data-rellax-speed="5" src="./img/pizza/hotdog-pizza.png" alt="pizza"
-            width="8%">
-          <img class="rellax rellax-section-img_12" data-rellax-speed="2" src="./img/pizza/chicken-pizza_big.png"
-            alt="pizza" width="12%">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="parallax-section">
-    <div class="container-fluid">
-      <div class="parallax">
-        <div class="parallax-content">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pizza-content">
-    <div class="container">
-      <div class="pizza">
-        <h1 id="scrollpizza">#pizza</h1>
-        <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="pizza-menu-list">
-              <a href="white-chiken.html"><img src="img/pizza/chicken-pizza.png" alt="Пицца с курицей"></a>
-              <h3><a href="white-chiken.html">White chiken</a></h3>
-              <p>Соус Сливочный, Сыр “Моцарелла”, Курица, Бекон, Помидор, Лук маринованый</p>
-              <div class="price">
-                <br>
-                <br>
-                <span>30 см</span>
-                <span>530 g</span>
-                <span class="in-price">79.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="price">
-                <span>45 см</span>
-                <span>1060 g</span>
-                <span class="in-price">158.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="pizza-collect">
-                <a href="white-chiken.html">собрать</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pizza-menu-list">
-              <img src="img/pizza/meat-pizza.png" alt="Пицца мясная">
-              <h3><a href="#">Мясная BBQ</a></h3>
-              <p>Соус BBQ, Сыр “Моцарелла”, Курица, Колбаса копченая, Бекон, Зелень</p>
-              <div class="price">
-                <br>
-                <br>
-                <span>30 см</span>
-                <span>465 g</span>
-                <span class="in-price">77.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="price">
-                <span>45 см</span>
-                <span>930 g</span>
-                <span class="in-price">154.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="pizza-collect">
-                <a href="#">собрать</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pizza-menu-list">
-              <img src="img/pizza/selo-pizza.png" alt="Пицца селянская">
-              <h3><a href="#">Селянская</a></h3>
-              <p>Соус томатний, Сыр “Моцарелла”, Колбаса копченая, Лук маринованый, Шампиньоны, Бекон, Зелень</p>
-              <div class="price price-top">
-                <br>
-                <br>
-                <span>30 см</span>
-                <span>475 g</span>
-                <span class="in-price">69.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="price">
-                <span>45 см</span>
-                <span>950 g</span>
-                <span class="in-price">138.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="pizza-collect">
-                <a href="#">собрать</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pizza-menu-list">
-              <img src="img/pizza/tropic-pizza.png" alt="Пицца тропикано">
-              <h3><a href="#">Тропикано</a></h3>
-              <p>Соус Сливочный, Сыр “Моцарелла”, Курица, Ветчина, Ананас</p>
-              <div class="price">
-                <br>
-                <br>
-                <span>30 см</span>
-                <span>455 g</span>
-                <span class="in-price">72.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="price">
-                <span>45 см</span>
-                <span>910 g</span>
-                <span class="in-price">144.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="pizza-collect">
-                <a href="#">собрать</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pizza-menu-list">
-              <img src="img/pizza/hotdog-pizza.png" alt="Пицца хот-дог">
-              <h3><a href="#">Хот Дог</a></h3>
-              <p>Соус томатный, Сыр “Моцарелла”, Сосиски молочные, Колбаски, Помидор, Огурец маринованый, Горчица,
-                Соус
-                сырный</p>
-              <div class="price price-top">
-                <br>
-                <br>
-                <span>30 см</span>
-                <span>580 g</span>
-                <span class="in-price">79.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="price">
-                <span>45 см</span>
-                <span>1160 g</span>
-                <span class="in-price">158.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="pizza-collect">
-                <a href="#">собрать</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pizza-menu-list">
-              <img src="img/pizza/gavai-pizza.png" alt="Пицца гавайская">
-              <h3><a href="#">Гавайская</a></h3>
-              <p>Соус Сливочный, Сыр “Моцарелла”, Курица, Ананас, Маслины, Зелень</p>
-              <div class="price">
-                <br>
-                <br>
-                <span>30 см</span>
-                <span>470 g</span>
-                <span class="in-price">73.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="price">
-                <span>45 см</span>
-                <span>940 g</span>
-                <span class="in-price">146.<sup>00</sup> грн</span>
-                <span class="in-basket">Беру</span>
-              </div>
-              <div class="pizza-collect">
-                <a href="#">собрать</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <footer class="footer">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-            <div class="contact">
-              <div class="contact__info" id="scrollcontact">
-                <p>г. Днепр</p>
-                <p>пр. Героев 12</p>
-                <a class="contact__info_phone" href="tel:+38(068) 315-35-79">(068) 315-35-79</a>
-                <a class="contact__info_phone" href="tel:+38(096) 215-83-57">(096) 215-83-57</a>
-                <a class="contact__info_mail" href="mailto:info@miapizza.com">info@miapizza.com</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="map">
-              <div class="map__google">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10591.685034270147!2d35.060872!3d48.419656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfcbd581b5ba5%3A0x61a1356a513651a!2z0L_RgNC-0YHQvy4g0JPQtdGA0L7QtdCyLCAxMiwg0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1623152620467!5m2!1sru!2sua"
-                  width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-            <div class="application">
-              <div class="application__content">
-                <div class="application__content_apple">
-                  <a href="#"><img src="./img/footer/app_store.png" alt="app_store" width="150px"></a>
+    <section class="parallax-section">
+        <div class="container-fluid">
+            <div class="parallax">
+                <div class="parallax-content">
                 </div>
-                <div class="application__content_google">
-                  <a href="#"><img src="./img/footer/google_store.png" alt="google_store" width="150px"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="pizza-content">
+        <div class="container">
+            <div class="pizza">
+                <h1 id="scrollpizza">#pizza</h1>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="pizza-menu-list">
+                            <a href="white-chiken.html"><img src="img/pizza/chicken-pizza.png" alt="Пицца с курицей"></a>
+                            <h3><a href="white-chiken.html">White chiken</a></h3>
+                            <p>Соус Сливочный, Сыр “Моцарелла”, Курица, Бекон, Помидор, Лук маринованый</p>
+                            <div class="price">
+                                <br>
+                                <br>
+                                <span>30 см</span>
+                                <span>530 g</span>
+                                <span class="in-price">79.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="price">
+                                <span>45 см</span>
+                                <span>1060 g</span>
+                                <span class="in-price">158.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="pizza-collect">
+                                <a href="white-chiken.html">собрать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="pizza-menu-list">
+                            <img src="img/pizza/meat-pizza.png" alt="Пицца мясная">
+                            <h3><a href="#">Мясная BBQ</a></h3>
+                            <p>Соус BBQ, Сыр “Моцарелла”, Курица, Колбаса копченая, Бекон, Зелень</p>
+                            <div class="price">
+                                <br>
+                                <br>
+                                <span>30 см</span>
+                                <span>465 g</span>
+                                <span class="in-price">77.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="price">
+                                <span>45 см</span>
+                                <span>930 g</span>
+                                <span class="in-price">154.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="pizza-collect">
+                                <a href="#">собрать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="pizza-menu-list">
+                            <img src="img/pizza/selo-pizza.png" alt="Пицца селянская">
+                            <h3><a href="#">Селянская</a></h3>
+                            <p>Соус томатний, Сыр “Моцарелла”, Колбаса копченая, Лук маринованый, Шампиньоны, Бекон, Зелень</p>
+                            <div class="price price-top">
+                                <br>
+                                <br>
+                                <span>30 см</span>
+                                <span>475 g</span>
+                                <span class="in-price">69.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="price">
+                                <span>45 см</span>
+                                <span>950 g</span>
+                                <span class="in-price">138.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="pizza-collect">
+                                <a href="#">собрать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="pizza-menu-list">
+                            <img src="img/pizza/tropic-pizza.png" alt="Пицца тропикано">
+                            <h3><a href="#">Тропикано</a></h3>
+                            <p>Соус Сливочный, Сыр “Моцарелла”, Курица, Ветчина, Ананас</p>
+                            <div class="price">
+                                <br>
+                                <br>
+                                <span>30 см</span>
+                                <span>455 g</span>
+                                <span class="in-price">72.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="price">
+                                <span>45 см</span>
+                                <span>910 g</span>
+                                <span class="in-price">144.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="pizza-collect">
+                                <a href="#">собрать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="pizza-menu-list">
+                            <img src="img/pizza/hotdog-pizza.png" alt="Пицца хот-дог">
+                            <h3><a href="#">Хот Дог</a></h3>
+                            <p>Соус томатный, Сыр “Моцарелла”, Сосиски молочные, Колбаски, Помидор, Огурец маринованый, Горчица, Соус сырный
+                            </p>
+                            <div class="price price-top">
+                                <br>
+                                <br>
+                                <span>30 см</span>
+                                <span>580 g</span>
+                                <span class="in-price">79.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="price">
+                                <span>45 см</span>
+                                <span>1160 g</span>
+                                <span class="in-price">158.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="pizza-collect">
+                                <a href="#">собрать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="pizza-menu-list">
+                            <img src="img/pizza/gavai-pizza.png" alt="Пицца гавайская">
+                            <h3><a href="#">Гавайская</a></h3>
+                            <p>Соус Сливочный, Сыр “Моцарелла”, Курица, Ананас, Маслины, Зелень</p>
+                            <div class="price">
+                                <br>
+                                <br>
+                                <span>30 см</span>
+                                <span>470 g</span>
+                                <span class="in-price">73.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="price">
+                                <span>45 см</span>
+                                <span>940 g</span>
+                                <span class="in-price">146.<sup>00</sup> грн</span>
+                                <span class="in-basket">Беру</span>
+                            </div>
+                            <div class="pizza-collect">
+                                <a href="#">собрать</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- Меню для моб версий -->
-  <section class="for-mobile-size">
-    <div class="mobile">
-      <div class="mobile-menu">
-        <a href="#" class="mob"></a>
-        <nav class="mobile-menu-list">
-          <h5 class="mobile-menu-call">Сделать заказ</h5>
-          <h5>
-            <a id="phone_link" href="tel:+380(068) 315-35-79"><span>&#128222;</span> (068) 315-35-79</a>
-          </h5>
-          <h5>
-            <a id="phone_link-2" href="tel:+38(096) 215-83-57"><span>&#128222;</span> (096) 215-83-57</a>
-          </h5>
-          <div class="mobile-menu-list-img">
-            <img id="mobile_logo_menu" class="mobile-logo-menu" src="img/miapizza.png" alt="Mia Pizza logo"
-              width="100rem">
-          </div>
 
-          <a class="scrlpizza-mob" href="#scrollpizza">Пицца</a>
-          <a href="#">Комбо-микс</a>
-          <a href="#">Акции</a>
-          <a class="scrlcontact" href="#scrollcontact">Контакты</a>
-          <div class="mobile-login">
-            <div class="mobile-login-town">
-              <form class="mobile-login-town-form" action="#">
-                <!-- Картинка из черно-белого в цветное -->
-                <h4 class="login-town-form_log"><a class="log_btn" id="login" href="#">Вход</a>
-                  <a class="login-town-form_inst" href="#"><img id="mobile_viber_grey" class="grey"
-                      src="img/social/viber-1.png" alt="viber_logo"><img id="mobile_viber_color" class="color"
-                      src="img/social/viber-2.png" alt="viber_logo"></a>
-                  <a class="login-town-form_inst" href="#"><img id="mobile_tele_grey" class="grey"
-                      src="img/social/telegram-1.png" alt="telegram_logo"><img id="mobile_tele_color" class="color"
-                      src="img/social/telegram-2.png" alt="telegram_logo"></a>
-                  <a class="login-town-form_inst" href="#"><img id="mobile_inst_grey" class="grey"
-                      src="img/social/instagram-1.png" alt="instagram_logo"><img id="mobile_inst_color" class="color"
-                      src="img/social/instagram-2.png" alt="instagram_logo"></a>
-                  <a id="not_visible" href="#">a</a>
-              </form>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="contact">
+                            <div class="contact__info" id="scrollcontact">
+                                <p>г. Днепр</p>
+                                <p>пр. Героев 12</p>
+                                <a class="contact__info_phone" href="tel:+38(068) 315-35-79">(068) 315-35-79</a>
+                                <a class="contact__info_phone" href="tel:+38(096) 215-83-57">(096) 215-83-57</a>
+                                <a class="contact__info_mail" href="mailto:info@miapizza.com">info@miapizza.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="map">
+                            <div class="map__google">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10591.685034270147!2d35.060872!3d48.419656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfcbd581b5ba5%3A0x61a1356a513651a!2z0L_RgNC-0YHQvy4g0JPQtdGA0L7QtdCyLCAxMiwg0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1623152620467!5m2!1sru!2sua"
+                                    width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="application">
+                            <div class="application__content">
+                                <div class="application__content_apple">
+                                    <a href="#"><img src="./img/footer/app_store.png" alt="app_store" width="150px"></a>
+                                </div>
+                                <div class="application__content_google">
+                                    <a href="#"><img src="./img/footer/google_store.png" alt="google_store" width="150px"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </section>
-
-  <!-- Вход в аккаунт -->
-  <div class="popup" id="modal_id">
-    <div class="popup-dialog">
-      <div class="popup-content">
-        <button class="popup-close log_btn">&times;</button>
-        <img class="popup-img" src="../src/img/miapizza.png" alt="logo" width="10%">
-        <div class="popup-form">
-          <form class="form" action="#">
-            <label class="popup-label" for="#">Имя пользователя или e-mail <sup>*</sup></label>
-            <input class="popup-input" required type="text" size="50">
-            <label class="popup-label" for="#">Номер телефона <sup>*</sup></label>
-            <input class="popup-input" id="1phone" type="phone" required size="50">
-            <label class="popup-label" for="#">Пароль <sup>*</sup></label>
-            <input class="popup-input" type="password" required size="50">
-            <button class="popup-btn">Войти</button>
-            <a href="#" class="popup-reg">Регистрация</a>
-          </form>
         </div>
-      </div>
+    </footer>
+
+    <!-- Меню для моб версий -->
+    <section class="for-mobile-size">
+        <div class="mobile">
+            <div class="mobile-menu">
+                <a href="#" class="mob"></a>
+                <nav class="mobile-menu-list">
+                    <h5 class="mobile-menu-call">Сделать заказ</h5>
+                    <h5>
+                        <a id="phone_link" href="tel:+380(068) 315-35-79"><span>&#128222;</span> (068) 315-35-79</a>
+                    </h5>
+                    <h5>
+                        <a id="phone_link-2" href="tel:+38(096) 215-83-57"><span>&#128222;</span> (096) 215-83-57</a>
+                    </h5>
+                    <div class="mobile-menu-list-img">
+                        <img id="mobile_logo_menu" class="mobile-logo-menu" src="img/miapizza.png" alt="Mia Pizza logo" width="100rem">
+                    </div>
+
+                    <a class="scrlpizza-mob" href="#scrollpizza">Пицца</a>
+                    <a href="#">Комбо-микс</a>
+                    <a href="#">Акции</a>
+                    <a class="scrlcontact" href="#scrollcontact">Контакты</a>
+                    <div class="mobile-login">
+                        <div class="mobile-login-town">
+                            <form class="mobile-login-town-form" action="#">
+                                <!-- Картинка из черно-белого в цветное -->
+                                <h4 class="login-town-form_log"><a class="log_btn" id="login" href="#">Вход</a>
+                                    <a class="login-town-form_inst" href="#"><img id="mobile_viber_grey" class="grey" src="img/social/viber-1.png" alt="viber_logo"><img id="mobile_viber_color" class="color" src="img/social/viber-2.png" alt="viber_logo"></a>
+                                    <a class="login-town-form_inst" href="#"><img id="mobile_tele_grey" class="grey" src="img/social/telegram-1.png" alt="telegram_logo"><img id="mobile_tele_color" class="color" src="img/social/telegram-2.png" alt="telegram_logo"></a>
+                                    <a class="login-town-form_inst" href="#"><img id="mobile_inst_grey" class="grey" src="img/social/instagram-1.png" alt="instagram_logo"><img id="mobile_inst_color" class="color" src="img/social/instagram-2.png" alt="instagram_logo"></a>
+                                    <a id="not_visible" href="#">a</a>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Вход в аккаунт -->
+    <div class="popup" id="modal_id">
+        <div class="popup-dialog">
+            <div class="popup-content">
+                <button class="popup-close log_btn">&times;</button>
+                <img class="popup-img" src="../src/img/miapizza.png" alt="logo" width="10%">
+                <div class="popup-form">
+                    <form class="form" action="#">
+                        <label class="popup-label" for="#">Имя пользователя или e-mail <sup>*</sup></label>
+                        <input class="popup-input" required type="text" size="50">
+                        <label class="popup-label" for="#">Номер телефона <sup>*</sup></label>
+                        <input class="popup-input" id="1phone" type="phone" required size="50">
+                        <label class="popup-label" for="#">Пароль <sup>*</sup></label>
+                        <input class="popup-input" type="password" required size="50">
+                        <button class="popup-btn">Войти</button>
+                        <a href="#" class="popup-reg">Регистрация</a>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  <!-- Подключаем wow.js -->
-  <script src="js/wow.min.js.txt"></script>
-  <script src="js/jquery.maskedinput.min.js"></script>
+    <!-- Подключаем wow.js -->
+    <script src="js/wow.min.js.txt"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
 
-  <!-- Маска под телефон -->
-  <script>
-    jQuery(function ($) {
-      $("#1phone").mask("+38 (999) 999-99-99");
-      $("#2phone").mask("+38 (999) 999-99-99");
-      $("#3phone").mask("+38 (999) 999-99-99");
-      $("#4phone").mask("+38 (999) 999-99-99");
-      $("#5phone").mask("+38 (999) 999-99-99");
-      $("#6phone").mask("+38 (999) 999-99-99");
-      $("#7phone").mask("+38 (999) 999-99-99");
-    });
-  </script>
+    <!-- Маска под телефон -->
+    <script>
+        jQuery(function($) {
+            $("#1phone").mask("+38 (999) 999-99-99");
+            $("#2phone").mask("+38 (999) 999-99-99");
+            $("#3phone").mask("+38 (999) 999-99-99");
+            $("#4phone").mask("+38 (999) 999-99-99");
+            $("#5phone").mask("+38 (999) 999-99-99");
+            $("#6phone").mask("+38 (999) 999-99-99");
+            $("#7phone").mask("+38 (999) 999-99-99");
+        });
+    </script>
 
-  <!-- Инициализируем сам wow.js -->
-  <script>
-    new WOW().init();
-  </script>
+    <!-- Инициализируем сам wow.js -->
+    <script>
+        new WOW().init();
+    </script>
 
-  <script src="./js/main-restoran.js"></script>
-  <script src="./js/rellax.min.js"></script>
-  <script src="./js/parallax.min.js"></script>
+    <script src="./js/main-restoran.js"></script>
+    <script src="./js/rellax.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
 
-  <!-- Эффект релакс -->
-  <script>
-    var rellax = new Rellax(".rellax");
-  </script>
+    <!-- Эффект релакс -->
+    <script>
+        var rellax = new Rellax(".rellax");
+    </script>
 
 </body>
 
